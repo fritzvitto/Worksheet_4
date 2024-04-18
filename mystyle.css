@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/portfolio_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    
+    background-attachment: fixed;
+
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.banner img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Times New Roman';
+
+}
+
+.banner h2{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+.banner a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+}
+
+.banner h2:hover{
+    background-color:rgb(164, 138, 50) ;
+    border-radius: 8px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 40%;
+    border: 2px solid rgb(164, 138, 50);
+    border: solid rgb(131, 102, 8);
+
+
+}
+
+.self_intro h3{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    text-indent: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: rgb(150, 108, 56);
+}
+
+.self_intro p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 30px;
+}
+
+.educational hr{
+    border-style: solid;
+    margin-top: none;
+
+}
+
+.educational h3{
+    font-family: sans-serif;
+}
+
+.heading{
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: rgb(150, 108, 56);
+    height: 40px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+table{
+    font-family: Arial;
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tbrow td{
+    border: 1px solid black;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+.expertise h3{
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: rgb(150, 108, 56);
+    text-indent: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.expertise ul{
+    font-family: sans-serif;
+    list-style-type: square;
+    text-align: left;
+}
+
+.background h3{
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: rgb(150, 108, 56);
+    text-indent: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.background p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 30px;
+
+}
+
+.applications h4{
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: rgb(150, 108, 56);
+    text-indent: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.applications ol{
+    font-style: italic;
+    list-style-type: decimal;
+    text-align: left;
+}
+
+.applications ol li{
+   font-family: Arial;  
+}
+
+
+
+
+
+
+
+
+
